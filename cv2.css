@@ -144,12 +144,12 @@ span {
     position: absolute;
     font-size: 30px;
     color: blue;
-    left: 473px;
-    top: 175%;
+    left: 482px;
+    top: 226%;
     text-shadow: 1px 1px 1px black;
 }
 
 .progression {
     color: black ;
-    margin: 0px 0px 10px 220px;
+    margin: 0px 0px 10px 230px;
 }
