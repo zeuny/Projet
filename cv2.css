@@ -1,0 +1,155 @@
+body{
+   
+    background-image: url("./img/tech-5090539_1920.jpg");
+}
+header h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+    margin: 20px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: 0px;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  20px;
+}
+.exp h4{
+    font-size:  20px;
+    font-weight: normal;
+    margin-left: 0px;
+}
+
+.photo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 105px;
+}
+.photo img{
+        width: 150px;
+        height: 150px;
+        border: 3px solid white;
+        box-shadow: 0px 0px 10px #777;
+        margin-top: -80px;
+    }
+ 
+section {
+
+    /* display: flex; */
+    
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px 40px 10px 250px ;
+    background-color: lightgray;
+    border-radius: 2%;
+
+}
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-desc {
+    font-style: oblique;
+}
+
+section h2{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    width: 90%;
+}
+
+.titre {
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    position: relative;
+}
+
+svg {
+    height: 150px;
+    width: 150px;
+    padding: 1px;
+    margin: 20px 20px 0px 200px;
+}
+
+svg circle {
+   fill: none;
+   stroke: blue;
+   stroke-width: 10px;
+   transform: translate(5px,5px);
+   stroke-dasharray: 320;
+   stroke-dashoffset: 320;
+   animation: circle 2s forwards;
+   stroke-linecap: round;
+}
+
+svg circle:nth-child(1) {
+    stroke: gray;
+    stroke-dashoffset: 0
+}
+svg circle,:nth-child(2) {
+    animation: circle 2s forwards;
+ }
+ 
+@keyframes circle {
+    to {
+        stroke-dashoffset: 60
+    }
+}
+ 
+span {
+    position: absolute;
+    font-size: 30px;
+    color: blue;
+    left: 473px;
+    top: 175%;
+    text-shadow: 1px 1px 1px black;
+}
+
+.progression {
+    color: black ;
+    margin: 0px 0px 10px 220px;
+}
